@@ -44,7 +44,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <form action="mailto:djohnson3535@gmail.com">
+              <form>
                 <div class="form-group">
                   <label for="recipient-name" class="form-control-label">Enter your e-mail to get notified when we launch</label>
                   <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com">
@@ -53,6 +53,11 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default">Subscribe</button>
+              <form action="mailto:djohnson3535@gmail.com" method="GET">
+    <input name="subject" type="text" />
+    <textarea name="body"></textarea>
+    <input type="submit" value="Send" />
+</form>
             </div>
           </div>
         </div>
